@@ -28,10 +28,15 @@ h2{
     font-family: 'Quicksand', sans-serif;
 }
 
+h3{
+    width: 75%;
+    margin: auto;
+}
+
 hr{
-    width: 5%;
+    width: 10%;
     border-style: dotted;
-    border-color: solid white;
+    border-color: #204051;
     border-width: 10px 0 0 0;
 }
 .subtitle{
@@ -57,33 +62,46 @@ hr{
 }
   
 .top-cloud{
-    right : 300px;
-    top: 40px;
     position: absolute;
+    left : 5%;
+    top: 40px;
+    
 }
 
 .bottom-cloud{
+    display: inline-block;
     position: absolute;
-    left: 250px;
-    bottom: 300px;
+    right: 5%;
+    bottom: 55%;
+    z-index: -1;
 }
 
 .mountain{
     display : inline-block;
     position: relative;
     bottom : 0;
+    max-width: 100%;
+}
+
+.title-text{
+    display: block;
+    line-height: 0.5em;
+    z-index: 1;
 }
 
 .top{
     background-color: #84a9ac;
     position: relative;
     padding-top: 100px;
+    padding-bottom: 0;
+    max-width: 100%;
+    z-index: -2;
 }
 
 .skill-row{
     text-align: left;
     display: inline-block;
-    width: 50%;
+    width: 60%;
 }
 .middle{
     background-color: #dddddd;
@@ -104,6 +122,11 @@ hr{
 /* .footer-link{
     padding-top : 2em;
 } */
+
+.get-in-touch{
+    width: 60%; 
+    margin: 40px auto 60px;
+}
 
 .btn {
     background: #11cdd4;
